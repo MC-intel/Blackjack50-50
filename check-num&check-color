@@ -1,0 +1,10 @@
+    def check_number_bet(self):
+        return self.bet_value == self.pocket_number
+
+    def check_color_bet(self):
+        if self.pocket_number == 0:
+            return self.bet_value == 'green'
+        elif self.pocket_number % 2 == 0:
+            return self.bet_value == 'black'
+        else:
+            return self.bet_value == 'red'
