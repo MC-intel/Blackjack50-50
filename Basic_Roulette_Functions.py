@@ -1,5 +1,5 @@
- import random
- import Check_Roulette_values
+import random
+import Check_Roulette_values
 
 class JORouletteFunctions:
   
